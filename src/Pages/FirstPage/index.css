@@ -28,48 +28,71 @@
 
 .logo {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 2%;
+  left: 2%;
+  width: 10vw;
+  max-width: 150px;
 }
 
 .main-section {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   height: 100%;
   position: relative;
   z-index: 1;
 }
 
 .table {
-  position: absolute;
-  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.table img {
   width: 80%;
+  max-width: 900px;
+  height: auto;
+  object-fit: contain;
 }
 
 .onion {
-  position: absolute;
-  left: 50vh;
-  bottom: 30px;
   z-index: 4;
+  position: absolute;
+  left: calc(50% - 20vw);
+  transform: translateY(50%);
 }
 
 .onion img {
-  width: 250px;
+  width: 15vw;
 }
 
+.chips {
+  z-index: 2;
+  position: absolute;
+  left: calc(50% + 5vw);
+  transform: translateX(-50%);
+  height: 50px;
+}
+
+.chips img {
+  width: 15vw;
+  max-width: 300px;
+}
+
+/* Cans */
 .pringles-cans {
+  z-index: 2;
   display: flex;
   justify-content: center;
 }
 
-.chips {
-  position: absolute;
-  right: 60vh;
-  bottom: 12vh;
-  z-index: 4;
-}
-
-.chips img {
-  width: 300px;
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: -20px;
 }

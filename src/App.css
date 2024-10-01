@@ -4,9 +4,3 @@ body {
   overflow-x: hidden;
   background-color: white;
 }
-
-.App {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}

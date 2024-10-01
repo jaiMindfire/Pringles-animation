@@ -1,7 +1,8 @@
-import "./index.css";
+import React from "react";
 import blue from "../../Images/blue.png";
 import green from "../../Images/green.png";
 import orange from "../../Images/orange.png";
+import "./index.css";
 
 function AnimatedCans() {
   return (
